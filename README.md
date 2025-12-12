@@ -1,7 +1,11 @@
 Ummumiy loyiha bo'yicha bir nechta olgan tajribalarim.
+
 FullName: Narzullayev Javohir
+
 Total time: ummumiy 2-3 soat atrofida.
+
 Qiyin bo'lgan joylarini pastda aytib o'tdim. Bularni hammasi App.jsx da
+
 DEMO: https://click-internship.vercel.app/
 
 1 - challenge:
