@@ -1,7 +1,10 @@
 function CartItem({ item, removeFromCart, updateQuantity }) {
+  console.log(item);
+
   return (
     <div className="cart-item">
       <div className="cart-info">
+        <img src={item.image} alt={item.title} className="cart-img" />
         <h4>{item.title}</h4>
         <p>${item.price}</p>
       </div>

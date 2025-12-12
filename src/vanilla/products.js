@@ -19,7 +19,8 @@ export async function loadProducts() {
         <button class="add-btn" onclick="addToCart({
           id: ${product.id},
           title: '${product.title.replace(/'/g, "\\'")}',
-          price: ${product.price}
+          price: ${product.price},
+          image: '${product.image}'
         })">Add to cart</button>
       </div>
     `
