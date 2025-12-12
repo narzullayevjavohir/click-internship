@@ -20,9 +20,14 @@ function CartItem({ item, removeFromCart, updateQuantity }) {
           +
         </button>
 
-        <button className="remove-btn" onClick={() => removeFromCart(item.id)}>
-          O‘chirish
-        </button>
+        <div>
+          <button
+            className="remove-btn"
+            onClick={() => removeFromCart(item.id)}
+          >
+            O'chirish
+          </button>
+        </div>
       </div>
     </div>
   );

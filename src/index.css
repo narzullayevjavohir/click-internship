@@ -142,8 +142,8 @@ body {
 }
 
 .remove-btn {
-  background-color: red;
-  color: #fff;
+  background: #ff0000 !important;
+  color: #fff !important;
   border: none;
   padding: 4px 8px;
 }
